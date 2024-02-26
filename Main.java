@@ -39,6 +39,7 @@ public class Main {
     }
 
 	public static void main(String[] args) throws IOException {
+        System.out.println(System.getProperty("user.home"));
 		Scanner sc = new Scanner(System.in);
 		System.out.println("231rdc021 Henriete Ignatjeva 17.grupa");
 		String fileName;
